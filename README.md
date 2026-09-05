@@ -2,7 +2,9 @@
 
 **Status:** v0.1 draft — open standard
 **Authors:** Teloplex, Inc.
-**License:** Specification CC-BY-4.0. Implementations of this specification may be proprietary.
+**License:** The specification text is licensed CC BY 4.0. Normative schemas, examples, and
+any reference code are licensed Apache 2.0 (express patent grant for implementers).
+Implementations of this specification may be proprietary.
 
 ## What this is
 
