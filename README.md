@@ -35,6 +35,16 @@ AIP is not a data-sharing protocol, a prompt-passing convention, or an API wrapp
 - [`spec/threat-model.md`](spec/threat-model.md) — adversarial analysis and mitigations
 - [`spec/message-schemas.md`](spec/message-schemas.md) — normative message schemas
 
+## Companion: the authorizer layer
+
+AIP defines *how* brains talk; it deliberately does not define *who inside an organization
+authorizes a grant* — that is left to each implementation's trust model. Teloplex's
+implementation defines that layer: a five-tier trust & access model (actor, tier, domain)
+where every AIP grant offered or accepted requires a human-issued approval card, lands in the
+client's own audit trail, and inherits per-actor violation surfacing. Internal design doc:
+`factory/specs/trust-access-tiers.md` in the Teloplex company repo (Teloplex-internal;
+the tier semantics will be proposed for AIP v0.2 as an optional `authorization` grant field).
+
 ## Why open
 
 Teloplex builds proprietary implementations of this protocol. The specification itself is open:
