@@ -34,6 +34,7 @@ AIP is not a data-sharing protocol, a prompt-passing convention, or an API wrapp
 - [`spec/AIP-v0.1.md`](spec/AIP-v0.1.md) — the protocol specification
 - [`spec/threat-model.md`](spec/threat-model.md) — adversarial analysis and mitigations
 - [`spec/message-schemas.md`](spec/message-schemas.md) — normative message schemas
+- [`spec/observability-profile.md`](spec/observability-profile.md) — draft for v0.2: concrete `audit_ref` records, tamper-evident local audit logs, `aip-report.v1` summaries
 
 ## Companion: the authorizer layer
 
